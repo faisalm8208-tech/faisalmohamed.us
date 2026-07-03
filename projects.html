@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Faisal Mohamed | RF & Wireless Portfolio</title>
+<meta name="description" content="Selected projects: lunar high-gain antenna TVAC testing, MANET/SDR data links for eVTOL, private 5G CBRS deployments, massive MIMO research, and more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="starfield"></canvas>
+
+<header class="site">
+  <div class="wrap">
+    <a class="logo" href="index.html"><span class="wave">∿</span>FAISAL<span class="dot">·</span>MOHAMED</a>
+    <button id="navToggle" aria-label="Menu">☰</button>
+    <nav class="main">
+      <a href="index.html">Home</a>
+      <a href="expertise.html">Expertise</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html">Projects</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+      <a href="consulting.html" class="cta">Book a Consultation</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section>
+  <div class="wrap">
+    <p class="kicker">// Mission Log</p>
+    <h1>Projects</h1>
+    <p class="lead" style="margin-bottom:30px">Selected work across space, air, and ground. Filter by band.</p>
+
+    <div class="filterbar">
+      <button class="active" data-f="all">ALL</button>
+      <button data-f="pro">PROFESSIONAL</button>
+      <button data-f="research">RESEARCH</button>
+      <button data-f="personal">PERSONAL</button>
+    </div>
+
+    <div class="grid cols-2" id="projGrid">
+
+      <div class="card reveal" data-cat="pro">
+        <div class="freq">🌙 SPACE · BLUE ORIGIN</div>
+        <h3>Lunar High-Gain Antenna — TVAC Qualification</h3>
+        <p>Developed test methodology for the MK1 "Endurance" lunar lander's high-gain antenna — including its first-ever deployment inside a thermal vacuum chamber replicating the temperature and vacuum of space. This antenna will deliver high-rate telemetry and video from the Moon's South Pole.</p>
+        <div class="tools"><span class="tag">TVAC</span><span class="tag">High-Gain Antenna</span><span class="tag">Qualification</span><span class="tag">Telemetry</span></div>
+        <p style="margin-top:12px"><a href="#" title="PLACEHOLDER — add Blue Origin public video URL">▶ Watch the public TVAC video (link pending)</a></p>
+      </div>
+
+      <div class="card reveal" data-cat="pro">
+        <div class="freq">🚁 AIR · A.I. BOT</div>
+        <h3>MANET/SDR Data Link for eVTOL — +300% Performance</h3>
+        <p>Designed a self-forming mobile ad-hoc network over software-defined radios for ultra-reliable low-latency communication between AI-piloted aircraft and ground control — tripling data-link performance versus the baseline architecture.</p>
+        <div class="tools"><span class="tag">MANET</span><span class="tag">SDR</span><span class="tag">URLLC</span><span class="tag">Link Budget</span></div>
+      </div>
+
+      <div class="card reveal" data-cat="pro">
+        <div class="freq">🚁 AIR · A.I. BOT</div>
+        <h3>Zero-Downtime Ground Control Comms</h3>
+        <p>Triple-redundant ground command &amp; control communication system combining Starlink, LTE, and point-to-point RF links, monitored in real time with Prometheus and Grafana. Result: zero ground-to-air downtime across the flight test campaign.</p>
+        <div class="tools"><span class="tag">Starlink</span><span class="tag">LTE</span><span class="tag">Prometheus</span><span class="tag">Grafana</span><span class="tag">HA Design</span></div>
+      </div>
+
+      <div class="card reveal" data-cat="pro">
+        <div class="freq">🏭 GROUND · ZAYO</div>
+        <h3>Private 5G / CBRS Proofs-of-Concept at National Scale</h3>
+        <p>Led design and proof-of-concept development for private LTE/5G deployments for major retail, automotive, and university clients — vendor-agnostic vRAN/O-RAN evaluation, SAS spectrum strategy, and 300+ site integrations nationwide.</p>
+        <div class="tools"><span class="tag">CBRS</span><span class="tag">5G SA/NSA</span><span class="tag">O-RAN</span><span class="tag">iBwave</span></div>
+      </div>
+
+      <div class="card reveal" data-cat="research">
+        <div class="freq">🔬 RESEARCH · XJTU</div>
+        <h3>Massive MIMO &amp; MVDR Beamforming</h3>
+        <p>Algorithm development and OTA validation for 16×16 beamforming and 64×64 massive-MIMO antenna arrays per 3GPP 5G NR — including MVDR beamforming simulation/testing and physical-layer security research for ad-hoc networks.</p>
+        <div class="tools"><span class="tag">MATLAB</span><span class="tag">Simulink</span><span class="tag">VHDL</span><span class="tag">SDR OTA</span></div>
+      </div>
+
+      <div class="card reveal" data-cat="research">
+        <div class="freq">🔬 RESEARCH · LIGHTSTAR</div>
+        <h3>FBG Fiber-Optic Sensors</h3>
+        <p>Development and performance testing of fiber Bragg grating sensors and DWDM components — solving signal degradation problems at the physical layer where it all started.</p>
+        <div class="tools"><span class="tag">FBG</span><span class="tag">DWDM</span><span class="tag">Prototyping</span></div>
+      </div>
+
+      <div class="card reveal" data-cat="personal">
+        <div class="freq">🎓 ORIGIN STORY · 2011</div>
+        <h3>RFID + Fingerprint Security System</h3>
+        <p>Undergraduate capstone: an RFID card access system hardened with fingerprint identification — the first project that fused radio and security, and set the trajectory for everything after.</p>
+        <div class="tools"><span class="tag">RFID</span><span class="tag">Embedded</span><span class="tag">Security</span></div>
+      </div>
+
+      <div class="placeholder reveal" data-cat="personal">
+        <span class="ph-icon">🧪</span>
+        <strong>[PLACEHOLDER — PERSONAL PROJECT]</strong>
+        <p>Home lab? SDR experiments? Drone builds? Faisal is curating photos and write-ups — this slot is reserved.</p>
+      </div>
+
+      <div class="placeholder reveal" data-cat="personal">
+        <span class="ph-icon">📻</span>
+        <strong>[PLACEHOLDER — PERSONAL PROJECT]</strong>
+        <p>Reserved for a future personal build or experiment.</p>
+      </div>
+
+      <div class="placeholder reveal" data-cat="personal">
+        <span class="ph-icon">🛠️</span>
+        <strong>[PLACEHOLDER — PERSONAL PROJECT]</strong>
+        <p>Reserved for a future personal build or experiment.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div>
+      <div class="logo"><span class="wave">∿</span>FM<span class="dot">·</span>ALL FREQUENCIES</div>
+      <div class="fine">© 2026 Faisal Mohamed · faisalmohamed.us</div>
+    </div>
+    <nav>
+      <a href="expertise.html">Expertise</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html">Projects</a>
+      <a href="consulting.html">Consulting</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+    </nav>
+    <nav>
+      <a href="https://www.linkedin.com/in/faisal4allfrequencies" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:hireme@faisalmohamed.us">Email</a>
+      <a href="https://outlook.office.com/bookwithme/user/b26dcd0c47854907a6004867aa557a21@faisalmohamed.us" target="_blank" rel="noopener">Book Time</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+<script>
+// project filter
+document.querySelectorAll(".filterbar button").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".filterbar button").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    const f = btn.dataset.f;
+    document.querySelectorAll("#projGrid > [data-cat]").forEach(card => {
+      card.style.display = (f === "all" || card.dataset.cat === f) ? "" : "none";
+    });
+  });
+});
+</script>
+</body>
+</html>

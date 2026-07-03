@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "lunar-antenna-tvac-lessons",
+    "title": "What Testing a Lunar Antenna in Thermal Vacuum Taught Me About Margin",
+    "date": "2026-07-01",
+    "tags": ["Space", "Testing"],
+    "excerpt": "The Moon's South Pole doesn't forgive optimistic link budgets. Notes on qualifying a high-gain antenna for the harshest RF environment there is.",
+    "draft": true
+  },
+  {
+    "slug": "cbrs-private-5g-lessons",
+    "title": "CBRS Private 5G: Lessons from 300+ Site Deployments",
+    "date": "2026-06-15",
+    "tags": ["CBRS", "Private 5G"],
+    "excerpt": "What actually breaks when you take private cellular from PowerPoint to production — vendor selection, SAS surprises, and the RF details everyone skips.",
+    "draft": true
+  },
+  {
+    "slug": "drive-tests-to-the-moon",
+    "title": "From Drive Tests to the Moon: A Career Across the Spectrum",
+    "date": "2026-06-01",
+    "tags": ["Career", "RF"],
+    "excerpt": "Fiber optics → GSM → 5G → eVTOL → lunar comms. What each band taught me, and advice for engineers who want to move between RF worlds.",
+    "draft": true
+  }
+]
